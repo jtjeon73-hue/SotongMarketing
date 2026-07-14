@@ -1,0 +1,85 @@
+{
+  "encouragement": "자료가 완벽하지 않아도 시작할 수 있습니다. 현재 가지고 있는 내용부터 함께 정리합니다.",
+  "basic": {
+    "title": "필수에 가까운 기본 자료",
+    "description": "아래가 있으면 상담과 제작을 시작하기 좋습니다. 모두 완벽하지 않아도 됩니다.",
+    "items": [
+      {
+        "id": "name",
+        "name": "업체명 또는 프로젝트명",
+        "note": "사이트에 표시될 이름입니다."
+      },
+      {
+        "id": "what",
+        "name": "무엇을 홍보하는지",
+        "note": "회사, 상품, 서비스, 농산물, 숙박 등 한 문장으로도 충분합니다."
+      },
+      {
+        "id": "audience",
+        "name": "주요 고객",
+        "note": "누구에게 보여 주고 싶은지 알려 주세요."
+      },
+      {
+        "id": "highlight",
+        "name": "가장 강조하고 싶은 점",
+        "note": "품질, 위치, 기술, 스토리, 가격 등 우선순위를 알려 주세요."
+      },
+      {
+        "id": "contact",
+        "name": "연락 방법",
+        "note": "방문자가 문의할 수단이 필요합니다."
+      }
+    ]
+  },
+  "contactMethods": {
+    "title": "연락 방법",
+    "description": "사용 중인 연락 수단을 골라 주시면 사이트에 맞게 배치합니다.",
+    "items": [
+      { "id": "phone", "name": "전화" },
+      { "id": "email", "name": "이메일" },
+      { "id": "kakao", "name": "카카오톡" },
+      { "id": "naver", "name": "네이버" },
+      { "id": "sns", "name": "SNS" },
+      { "id": "booking", "name": "예약 링크" },
+      { "id": "other", "name": "기타" }
+    ]
+  },
+  "photos": {
+    "title": "사진",
+    "description": "있으면 도움이 되는 사진입니다. 없어도 기존 자료로 시작할 수 있습니다.",
+    "items": [
+      { "id": "hero", "name": "대표 사진" },
+      { "id": "product", "name": "제품 사진" },
+      { "id": "store", "name": "매장 사진" },
+      { "id": "worksite", "name": "작업 현장" },
+      { "id": "facility", "name": "시설" },
+      { "id": "service-process", "name": "서비스 과정" },
+      { "id": "owner", "name": "대표자" },
+      { "id": "logo", "name": "로고" }
+    ],
+    "whenLimited": [
+      "기존 사진으로 시작 가능",
+      "추가 사진 촬영 권장사항을 안내할 수 있음",
+      "이미지 제작 또는 보완 가능 여부는 상담"
+    ]
+  },
+  "optional": {
+    "title": "선택 자료",
+    "description": "있으면 더 빠르고 풍성하게 구성할 수 있는 자료입니다.",
+    "items": [
+      { "id": "company-profile", "name": "회사 소개서" },
+      { "id": "pdf", "name": "PDF" },
+      { "id": "existing-website", "name": "기존 홈페이지" },
+      { "id": "blog", "name": "블로그" },
+      { "id": "sns", "name": "SNS" },
+      { "id": "menu", "name": "메뉴판" },
+      { "id": "product-desc", "name": "상품 설명" },
+      { "id": "reviews", "name": "고객 후기" },
+      { "id": "certificates", "name": "인증서" },
+      { "id": "patents", "name": "특허" },
+      { "id": "awards", "name": "수상내역" },
+      { "id": "map", "name": "지도 위치" }
+    ],
+    "reviewsCaution": "고객 후기는 실제로 받은 내용만 사용합니다. 없는 후기를 만들어 넣지 않습니다."
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "소통마케팅",
+    "short_name": "소통마케팅",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#17243A",
+    "theme_color": "#316BE8",
+    "description": "사업, 상품, 서비스, 농산물, 관광, 기술과 브랜드의 가치를 고객이 이해하고 상담으로 이어질 수 있도록 구성하는 소통웨어 맞춤형 홍보·마케팅 사이트 제작 서비스입니다.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "lang": "ko-KR",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

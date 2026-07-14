@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17243A"/>
+      <stop offset="55%" stop-color="#1A2A48"/>
+      <stop offset="100%" stop-color="#243868"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#316BE8"/>
+      <stop offset="40%" stop-color="#7657E8"/>
+      <stop offset="70%" stop-color="#F15B68"/>
+      <stop offset="100%" stop-color="#E5A832"/>
+    </linearGradient>
+    <linearGradient id="sGradOg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#316BE8"/>
+      <stop offset="55%" stop-color="#7657E8"/>
+      <stop offset="100%" stop-color="#F15B68"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="url(#ogAccent)"/>
+  <rect x="0" y="622" width="1200" height="8" fill="url(#ogAccent)"/>
+  <g opacity="0.35">
+    <line x1="920" y1="180" x2="1040" y2="120" stroke="#316BE8" stroke-width="3"/>
+    <line x1="920" y1="180" x2="1080" y2="220" stroke="#7657E8" stroke-width="3"/>
+    <line x1="920" y1="180" x2="1000" y2="320" stroke="#16A8A0" stroke-width="3"/>
+    <circle cx="1040" cy="120" r="10" fill="#316BE8"/>
+    <circle cx="1080" cy="220" r="10" fill="#7657E8"/>
+    <circle cx="1000" cy="320" r="9" fill="#16A8A0"/>
+    <circle cx="920" cy="180" r="14" fill="#FFFFFF"/>
+    <circle cx="920" cy="180" r="7" fill="#316BE8"/>
+  </g>
+  <g transform="translate(72,72) scale(0.42)">
+    <rect x="16" y="16" width="480" height="480" rx="108" ry="108" fill="#0F1A2C"/>
+    <path d="M318 148 C292 128, 246 122, 214 138 C178 156, 168 190, 196 214 C214 230, 248 238, 278 248 C308 258, 328 272, 318 298 C306 328, 262 338, 224 324 C204 316, 190 300, 186 286" fill="none" stroke="url(#sGradOg)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M318 148 C292 128, 246 122, 214 138 C178 156, 168 190, 196 214 C214 230, 248 238, 278 248 C308 258, 328 272, 318 298 C306 328, 262 338, 224 324 C204 316, 190 300, 186 286" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  </g>
+  <text x="72" y="340" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF">소통마케팅</text>
+  <text x="72" y="410" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="500" fill="#C8D4EE">맞춤형 홍보·마케팅 사이트 제작</text>
+  <text x="72" y="470" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="600" fill="#E5A832">SotongWare</text>
+</svg>

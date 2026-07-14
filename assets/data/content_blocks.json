@@ -1,0 +1,187 @@
+{
+  "disclaimer": "실제 구현 가능 여부와 외부 서비스 정책에 따라 기능은 상담 후 확정됩니다.",
+  "contentBlocks": [
+    {
+      "id": "main-message",
+      "name": "메인 홍보 메시지",
+      "description": "방문자가 첫 화면에서 무엇을 파는·하는 곳인지 바로 이해하도록 핵심 문구를 배치합니다."
+    },
+    {
+      "id": "company-intro",
+      "name": "회사 소개",
+      "description": "사업 배경, 하는 일, 대상 고객을 짧고 명확하게 소개합니다."
+    },
+    {
+      "id": "founder-story",
+      "name": "대표자 이야기",
+      "description": "왜 이 일을 하는지, 어떤 기준으로 일하는지 사람의 이야기로 전달합니다."
+    },
+    {
+      "id": "brand-story",
+      "name": "브랜드 스토리",
+      "description": "브랜드가 시작된 계기와 지향하는 가치를 정리합니다."
+    },
+    {
+      "id": "product-intro",
+      "name": "제품 소개",
+      "description": "제품의 특징, 구성, 사용 장면, 차별점을 보여 줍니다."
+    },
+    {
+      "id": "service-intro",
+      "name": "서비스 소개",
+      "description": "제공 서비스, 진행 방식, 대상, 기대할 수 있는 결과를 설명합니다."
+    },
+    {
+      "id": "strengths",
+      "name": "핵심 강점",
+      "description": "경쟁 포인트가 아니라, 고객이 선택할 이유를 몇 가지로 정리합니다."
+    },
+    {
+      "id": "numbers",
+      "name": "숫자로 보는 성과",
+      "description": "실제 확인 가능한 숫자만 사용합니다. 없거나 보장할 수 없는 수치는 넣지 않습니다."
+    },
+    {
+      "id": "process",
+      "name": "작업 과정",
+      "description": "제작·시공·상담·배송 등 진행 과정을 단계로 보여 신뢰를 높입니다."
+    },
+    {
+      "id": "facility",
+      "name": "시설 소개",
+      "description": "매장, 공장, 숙소, 교육 공간 등 현장을 사진과 설명으로 안내합니다."
+    },
+    {
+      "id": "portfolio",
+      "name": "포트폴리오",
+      "description": "실제 작업·프로젝트 사례를 정리합니다. 없는 실적을 만들어 넣지 않습니다."
+    },
+    {
+      "id": "before-after",
+      "name": "전후 비교",
+      "description": "개선 전후를 나란히 보여 이해할 수 있게 합니다. 과장된 효과 표현은 하지 않습니다."
+    },
+    {
+      "id": "reviews",
+      "name": "고객 후기",
+      "description": "실제로 받은 후기만 사용합니다. 존재하지 않는 후기는 작성하지 않습니다."
+    },
+    {
+      "id": "faq",
+      "name": "FAQ",
+      "description": "가격·기간·이용 방법 등 자주 묻는 질문을 미리 답합니다."
+    },
+    {
+      "id": "location",
+      "name": "위치",
+      "description": "주소, 찾아오는 길, 주차·교통 정보를 안내합니다."
+    },
+    {
+      "id": "contact",
+      "name": "문의",
+      "description": "전화, 이메일, 카카오톡 등 바로 연락할 수 있는 방법을 배치합니다."
+    },
+    {
+      "id": "download",
+      "name": "다운로드",
+      "description": "소개서·메뉴·카탈로그 등 파일을 받을 수 있게 합니다."
+    },
+    {
+      "id": "video",
+      "name": "영상",
+      "description": "유튜브 등 영상으로 현장감과 설명을 보강합니다."
+    },
+    {
+      "id": "map",
+      "name": "지도",
+      "description": "지도 링크 또는 지도 임베드로 위치를 한눈에 보여 줍니다."
+    },
+    {
+      "id": "shopping-link",
+      "name": "외부 쇼핑몰 연결",
+      "description": "스마트스토어·자사몰 등 기존 구매 페이지로 연결합니다."
+    },
+    {
+      "id": "booking-link",
+      "name": "예약 연결",
+      "description": "기존 예약 시스템·캘린더·폼으로 연결합니다."
+    },
+    {
+      "id": "sns-link",
+      "name": "SNS 연결",
+      "description": "인스타그램·유튜브·블로그 등 운영 중인 채널로 연결합니다."
+    }
+  ],
+  "featureBlocks": [
+    {
+      "id": "search",
+      "name": "검색",
+      "description": "콘텐츠가 많을 때 키워드로 찾을 수 있게 합니다."
+    },
+    {
+      "id": "filter",
+      "name": "필터",
+      "description": "카테고리·조건별로 목록을 좁혀 봅니다."
+    },
+    {
+      "id": "category",
+      "name": "카테고리",
+      "description": "제품·서비스·프로젝트를 주제별로 나눕니다."
+    },
+    {
+      "id": "gallery",
+      "name": "이미지 갤러리",
+      "description": "여러 장의 사진을 크게 넘기며 볼 수 있게 합니다."
+    },
+    {
+      "id": "video-player",
+      "name": "동영상",
+      "description": "페이지 안에서 영상 시청이 가능하도록 배치합니다."
+    },
+    {
+      "id": "faq-accordion",
+      "name": "FAQ 접기·펼치기",
+      "description": "질문을 펼쳐 답을 확인하는 형태로 구성합니다."
+    },
+    {
+      "id": "copy-link",
+      "name": "링크 복사",
+      "description": "사이트 주소나 특정 섹션 링크를 쉽게 복사합니다."
+    },
+    {
+      "id": "share",
+      "name": "공유",
+      "description": "카카오톡·SNS 등 공유에 유리한 메타정보와 공유 안내를 제공합니다."
+    },
+    {
+      "id": "call",
+      "name": "전화 연결",
+      "description": "모바일에서 번호 탭으로 바로 통화할 수 있게 합니다."
+    },
+    {
+      "id": "email",
+      "name": "이메일",
+      "description": "메일 앱으로 문의할 수 있는 버튼을 제공합니다."
+    },
+    {
+      "id": "kakao-link",
+      "name": "카카오톡 링크",
+      "description": "카카오톡 채널·오픈채팅 등 운영 중인 링크로 연결합니다."
+    },
+    {
+      "id": "map-feature",
+      "name": "지도",
+      "description": "위치 확인과 길찾기 연결을 지원합니다."
+    },
+    {
+      "id": "file-download",
+      "name": "파일 다운로드",
+      "description": "PDF·이미지 등 자료를 내려받을 수 있게 합니다."
+    },
+    {
+      "id": "qr-share",
+      "name": "QR 공유",
+      "description": "명함·전단·포장에 쓸 수 있도록 QR로 연결하는 방법을 안내합니다."
+    }
+  ]
+}

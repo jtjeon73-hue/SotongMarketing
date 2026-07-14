@@ -1,0 +1,150 @@
+{
+  "disclaimer": "아래 내용은 실제 제작 결과물이나 고객 포트폴리오가 아닙니다. 「가능한 사이트 구성 예시」이며, 샘플 시나리오입니다.",
+  "examples": [
+    {
+      "id": "cafe",
+      "name": "지역 카페",
+      "label": "가능한 사이트 구성 예시",
+      "scenarioType": "샘플 시나리오",
+      "summary": "동네 카페가 분위기·메뉴·위치를 한 링크로 소개하는 구성 예시입니다.",
+      "sections": [
+        {
+          "id": "main-image",
+          "title": "메인 이미지",
+          "description": "매장 대표 사진과 한 줄 소개로 첫인상을 잡습니다."
+        },
+        {
+          "id": "story",
+          "title": "카페 이야기",
+          "description": "문을 연 이유, 공간에서 전하고 싶은 분위기, 단골에게 전하는 메시지를 짧게 정리합니다."
+        },
+        {
+          "id": "menu",
+          "title": "대표 메뉴",
+          "description": "시그니처 음료·디저트와 간단한 설명을 보여 줍니다. 가격은 운영자가 제공한 범위만 표시합니다."
+        },
+        {
+          "id": "space",
+          "title": "공간 소개",
+          "description": "좌석, 조명, 창가, 작업 가능한 좌석 등 방문 전에 궁금한 포인트를 사진으로 안내합니다."
+        },
+        {
+          "id": "location",
+          "title": "위치",
+          "description": "주소, 찾아오는 길, 주차·대중교통 정보를 안내합니다."
+        },
+        {
+          "id": "contact",
+          "title": "문의",
+          "description": "전화, 영업시간, 카카오톡·인스타그램 연결을 배치합니다."
+        }
+      ],
+      "suitablePackageHint": "스타트~비즈니스형에서 자주 선택하는 규모입니다."
+    },
+    {
+      "id": "farm-product",
+      "name": "농산물",
+      "label": "가능한 사이트 구성 예시",
+      "scenarioType": "샘플 시나리오",
+      "summary": "생산자의 이야기와 상품 특징을 전달하고 주문·문의로 연결하는 구성 예시입니다.",
+      "sections": [
+        {
+          "id": "producer",
+          "title": "생산자 이야기",
+          "description": "누가 키우는지, 어떤 마음으로 농사를 짓는지 소개합니다."
+        },
+        {
+          "id": "environment",
+          "title": "재배 환경",
+          "description": "밭·하우스·저장 환경 등 믿을 수 있는 현장 정보를 보여 줍니다."
+        },
+        {
+          "id": "features",
+          "title": "상품 특징",
+          "description": "품종, 수확 시기, 맛·보관 방법, 선물·직거래 포인트를 정리합니다."
+        },
+        {
+          "id": "harvest",
+          "title": "수확 과정",
+          "description": "수확·선별·포장 과정을 사진과 단계로 안내합니다."
+        },
+        {
+          "id": "order",
+          "title": "주문 연결",
+          "description": "스마트스토어·전화·카카오톡 등 기존 주문 채널로 연결합니다."
+        }
+      ],
+      "suitablePackageHint": "콘텐츠 양에 따라 비즈니스형 또는 프리미엄형이 적합할 수 있습니다."
+    },
+    {
+      "id": "industrial-tech",
+      "name": "산업 기술업체",
+      "label": "가능한 사이트 구성 예시",
+      "scenarioType": "샘플 시나리오",
+      "summary": "B2B 기술·장비를 비전문가도 이해할 수 있게 풀어 쓰는 구성 예시입니다.",
+      "sections": [
+        {
+          "id": "company",
+          "title": "회사 소개",
+          "description": "무엇을 하는 회사인지, 어떤 산업 문제를 다루는지 소개합니다."
+        },
+        {
+          "id": "technologies",
+          "title": "보유 기술",
+          "description": "핵심 기술·장비를 쉬운 말로 정리하고, 전문 용어는 짧게 풀어 씁니다."
+        },
+        {
+          "id": "applications",
+          "title": "적용 분야",
+          "description": "어떤 공장·공정·현장에 적용할 수 있는지 시나리오로 안내합니다."
+        },
+        {
+          "id": "build-process",
+          "title": "구축 과정",
+          "description": "상담부터 설치·점검까지 진행 단계를 보여 줍니다."
+        },
+        {
+          "id": "inquiry",
+          "title": "문의",
+          "description": "기술 상담·견적 요청으로 이어지는 연락처를 배치합니다."
+        }
+      ],
+      "suitablePackageHint": "설명 깊이에 따라 비즈니스형~맞춤 프로젝트까지 상담합니다."
+    },
+    {
+      "id": "app-software",
+      "name": "앱·소프트웨어",
+      "label": "가능한 사이트 구성 예시",
+      "scenarioType": "샘플 시나리오",
+      "summary": "앱·도구를 문제와 해결 중심으로 소개하는 프로모 페이지 구성 예시입니다.",
+      "sections": [
+        {
+          "id": "problem",
+          "title": "문제",
+          "description": "사용자가 겪는 불편을 먼저 드러내 관심을 모읍니다."
+        },
+        {
+          "id": "solution",
+          "title": "해결 방법",
+          "description": "제품이 그 문제를 어떻게 돕는지 한눈에 보여 줍니다."
+        },
+        {
+          "id": "features",
+          "title": "주요 기능",
+          "description": "핵심 기능 몇 가지만 골라 이해하기 쉽게 설명합니다."
+        },
+        {
+          "id": "screens",
+          "title": "화면",
+          "description": "실제 화면 캡처로 사용감을 전달합니다."
+        },
+        {
+          "id": "download-contact",
+          "title": "다운로드·문의",
+          "description": "스토어·체험·데모·문의 중 가능한 다음 행동으로 연결합니다."
+        }
+      ],
+      "suitablePackageHint": "기능 설명량과 화면 수에 따라 비즈니스형 또는 프리미엄형이 적합할 수 있습니다."
+    }
+  ]
+}

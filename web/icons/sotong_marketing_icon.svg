@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Sotong Marketing">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17243A"/>
+      <stop offset="100%" stop-color="#1C2F52"/>
+    </linearGradient>
+    <linearGradient id="sGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#316BE8"/>
+      <stop offset="55%" stop-color="#7657E8"/>
+      <stop offset="100%" stop-color="#F15B68"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="108" ry="108" fill="url(#bgGrad)"/>
+  <path d="M256 420 C210 360, 210 300, 256 240 C302 300, 302 360, 256 420 Z" fill="#16A8A0" opacity="0.18"/>
+  <path d="M256 248 L232 282 L248 282 L248 330 L264 330 L264 282 L280 282 Z" fill="#E5A832" opacity="0.85"/>
+  <g fill="none" stroke-linecap="round">
+    <line x1="256" y1="200" x2="140" y2="120" stroke="#316BE8" stroke-width="6" opacity="0.7"/>
+    <line x1="256" y1="200" x2="372" y2="120" stroke="#7657E8" stroke-width="6" opacity="0.7"/>
+    <line x1="256" y1="200" x2="108" y2="220" stroke="#16A8A0" stroke-width="5" opacity="0.65"/>
+    <line x1="256" y1="200" x2="404" y2="220" stroke="#F15B68" stroke-width="5" opacity="0.65"/>
+    <line x1="256" y1="200" x2="168" y2="340" stroke="#E5A832" stroke-width="5" opacity="0.55"/>
+    <line x1="256" y1="200" x2="344" y2="340" stroke="#316BE8" stroke-width="5" opacity="0.55"/>
+  </g>
+  <circle cx="140" cy="120" r="16" fill="#316BE8"/>
+  <circle cx="372" cy="120" r="16" fill="#7657E8"/>
+  <circle cx="108" cy="220" r="13" fill="#16A8A0"/>
+  <circle cx="404" cy="220" r="13" fill="#F15B68"/>
+  <circle cx="168" cy="340" r="12" fill="#E5A832"/>
+  <circle cx="344" cy="340" r="12" fill="#316BE8"/>
+  <circle cx="256" cy="200" r="22" fill="#FFFFFF"/>
+  <circle cx="256" cy="200" r="12" fill="#316BE8"/>
+  <path d="M318 148 C292 128, 246 122, 214 138 C178 156, 168 190, 196 214 C214 230, 248 238, 278 248 C308 258, 328 272, 318 298 C306 328, 262 338, 224 324 C204 316, 190 300, 186 286" fill="none" stroke="url(#sGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M318 148 C292 128, 246 122, 214 138 C178 156, 168 190, 196 214 C214 230, 248 238, 278 248 C308 258, 328 272, 318 298 C306 328, 262 338, 224 324 C204 316, 190 300, 186 286" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+</svg>

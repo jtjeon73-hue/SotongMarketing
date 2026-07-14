@@ -1,0 +1,13 @@
+{
+  "name": "sotong-marketing-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Icon / OG rasterization for 소통마케팅",
+  "main": "render_marketing_icons.js",
+  "scripts": {
+    "render": "node render_marketing_icons.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
