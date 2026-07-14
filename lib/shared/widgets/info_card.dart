@@ -34,22 +34,25 @@ class InfoCard extends StatelessWidget {
     );
 
     final card = Container(
+      width: double.infinity,
       decoration: BoxDecoration(
         color: AppColors.card,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: AppColors.border),
       ),
       clipBehavior: Clip.antiAlias,
-      child: IntrinsicHeight(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            if (accent != null) Container(width: 4, color: accent),
-            Expanded(
-              child: Padding(padding: padding, child: content),
+      child: Stack(
+        children: [
+          if (accent != null)
+            Positioned(
+              left: 0,
+              top: 0,
+              bottom: 0,
+              width: 4,
+              child: ColoredBox(color: accent!),
             ),
-          ],
-        ),
+          Padding(padding: padding, child: content),
+        ],
       ),
     );
 
