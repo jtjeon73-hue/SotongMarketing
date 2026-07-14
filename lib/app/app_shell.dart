@@ -3,11 +3,15 @@ import 'package:go_router/go_router.dart';
 
 import '../core/constants/app_colors.dart';
 import '../core/constants/app_info.dart';
-import '../shared/layout/app_footer.dart';
 import '../shared/layout/app_sidebar.dart';
 import '../shared/layout/content_header.dart';
 
-/// 데스크톱: 사이드바+콘텐츠 / 모바일(<900): AppBar+Drawer.
+/// 데스크톱: 사이드바 + 우측(헤더 고정 / 라우트 본문)
+/// 모바일(<900): AppBar + Drawer + 본문
+///
+/// Footer는 [PageScaffoldBody] 스크롤 흐름 안에서 페이지 콘텐츠 다음에 둔다.
+/// go_router ShellRoute의 Navigator child는 유한 높이가 필요하므로
+/// 셸에서 child를 다시 스크롤로 감싸지 않는다.
 class AppShell extends StatefulWidget {
   const AppShell({super.key, required this.child});
 
@@ -90,8 +94,9 @@ class _ContentColumn extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ContentHeader(location: location),
-        Expanded(child: child),
-        const AppFooter(),
+        Expanded(
+          child: ColoredBox(color: AppColors.bg, child: child),
+        ),
       ],
     );
   }

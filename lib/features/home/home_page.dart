@@ -80,7 +80,6 @@ class HomePage extends StatelessWidget {
     final theme = Theme.of(context);
 
     return PageScaffoldBody(
-      maxWidth: 1100,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
